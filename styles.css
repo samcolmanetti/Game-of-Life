@@ -1,0 +1,12 @@
+body, #gameDiv, canvas {
+    text-align: center;
+    margin: 0 auto;
+    background: rgb(240, 245, 245);
+}
+p {
+    font-size: 15px;
+    
+}
+h1 {
+    font-size: 30px;
+}
