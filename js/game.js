@@ -5,7 +5,7 @@ var cellSize = 33; // blocks are 33x33px
 
 var mainState = {
 
-    // Function called first to load all the assets
+    // This function is called first and loads all of the game assets
     preload: function() {
         board = new Array(SIZE); 
         for (var i = 0; i < SIZE; i++){
@@ -22,7 +22,7 @@ var mainState = {
         game.load.image('dead', 'assets/dead_33.png');      
     },
 
-    // Fuction called after 'preload' to setup the game 
+    // This fuction is called after 'preload' to setup the game 
     create: function() {
         placeGlider(12,12); 
         placeBlock(8,8); 
